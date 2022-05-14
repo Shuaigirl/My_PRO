@@ -18,3 +18,4 @@ df1 = pd.read_sql_query(query, connection)
 df2 = pd.read_sql_query(query2, engine)
 print(df1.head())
 print(df2.head())
+
